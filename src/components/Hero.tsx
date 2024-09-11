@@ -20,7 +20,7 @@ export function HeroSection() {
 
       <div className="hidden lg:flex justify-end items-center w-1/2">
         <div className="w-[500px] h-[500px] blob bg-red-300 overflow-hidden relative">
-          <Image layout="fill" objectFit="cover" src="/images/man.jpg" alt="man with headphones"/>
+          <Image layout="fill" objectFit="cover" src="/images/man1.jpg" alt="man with headphones"/>
         </div>
       </div>
     </section>
