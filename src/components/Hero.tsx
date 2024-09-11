@@ -9,11 +9,11 @@ export function HeroSection() {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-pulse bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-cyan-500">
           Experience Music Like Never Before
         </h1>
-        <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-400">
+        <p className="text-base md:text-xl mb-6 max-w-2xl mx-auto text-gray-400">
           Immerse yourself in a world of sound with our cutting-edge music player. Discover, play, and share your favorite tunes with ease.
         </p>
         <Button asChild size="lg" className="bg-pink-600 hover:bg-pink-700 text-white">
-          <Link href="/get-started">Start Listening Now</Link>
+          <Link href="/get-started" className="font-extrabold">Start Listening Now</Link>
         </Button>
         
       </div>
