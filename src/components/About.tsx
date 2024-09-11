@@ -1,11 +1,18 @@
+'use client'
 import { Github, Linkedin, Twitter } from "lucide-react"
 import { Button } from "./ui/button"
 import Link from "next/link"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react"
 
 export function AboutSection() {
+useEffect(()=>{
+    AOS.init()
+  }, [])
     return (
       <section className="py-20">
-        <div className="max-w-4xl mx-auto text-center">
+        <div  data-aos="fade-up" className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8 clip bg-gradient-to-r from-pink-500 to-cyan-500">
             <span>About Melodya</span>
           </h2>

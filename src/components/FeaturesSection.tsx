@@ -36,7 +36,7 @@ export function FeaturesSection() {
       <h2 className="text-3xl font-bold mb-12 text-center text-gray-200">Why Choose Melodya?</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {features.map((feature, index) => (
-          <Card key={index} className={`relative overflow-hidden rounded-xl bg-gray-800 border-0 p-4`}>
+          <Card data-aos="fade-up" key={index} className={`relative overflow-hidden rounded-xl bg-gray-800 border-0 p-4`}>
             <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-75`} />
             <div className="absolute inset-0 bg-gray-900 opacity-75" />
             <CardHeader className="relative z-10">
