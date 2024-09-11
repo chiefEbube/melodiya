@@ -65,7 +65,6 @@ export default function Navbar() {
                                     height={24}
                                 />
                             </div>
-                            <span className="text-lg font-bold">Melodya</span>
                         </div>
                         <button onClick={() => setIsMenuOpen(false)} aria-label="Close menu">
                             <X size={24} />

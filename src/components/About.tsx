@@ -6,14 +6,14 @@ export function AboutSection() {
     return (
       <section className="py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-cyan-500">
-            About Melodya
+          <h2 className="text-3xl font-bold mb-8 clip bg-gradient-to-r from-pink-500 to-cyan-500">
+            <span>About Melodya</span>
           </h2>
           <div className="bg-gray-800 p-8 rounded-xl mb-8">
-            <p className="text-base mb-6">
+            <p className="text-base mb-6 text-gray-300">
               {`This project is more than just a music player; it's a journey into the heart of what makes music special to each of us. It's about creating connections, discovering new sounds, and sharing the joy of music with others.`}
             </p>
-            <p className="text-base">
+            <p className="text-base text-gray-300">
               Melodya is my Portfolio Project for{" "}
               <Link href="https://www.holbertonschool.com" className="text-pink-400 hover:text-pink-400" target="_blank" rel="noopener noreferrer">
                 Holberton School

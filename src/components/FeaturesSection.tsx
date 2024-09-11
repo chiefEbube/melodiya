@@ -1,7 +1,15 @@
+'use client'
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { MusicIcon, HeadphonesIcon, ShareIcon } from "lucide-react"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react"
 
 export function FeaturesSection() {
+  useEffect(()=>{
+    AOS.init()
+  }, [])
   const features = [
     {
       title: "Vast Music Library",

@@ -88,3 +88,9 @@ body {
 .blob{
   border-radius: 74% 26% 30% 70% / 34% 45% 55% 66% ;
 }
+
+.clip{
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent
+}
