@@ -10,7 +10,7 @@ export function CTASection() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-200">Ready to Transform Your Music Experience?</h2>
             <p className="text-lg md:text-xl mb-8 text-gray-400">Join millions of music lovers and start your journey today.</p>
             <Button asChild size="lg" className="bg-purple-600 hover:bg-purple-700 text-white">
-              <Link href="/get-started" className="font-extrabold">Get Started for Free</Link>
+              <Link href="/" className="font-extrabold">Get Started for Free</Link>
             </Button>
           </div>
         </div>

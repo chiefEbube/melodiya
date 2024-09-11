@@ -13,7 +13,7 @@ export function HeroSection() {
           Immerse yourself in a world of sound with our cutting-edge music player. Discover, play, and share your favorite tunes with ease.
         </p>
         <Button asChild size="lg" className="bg-pink-600 hover:bg-pink-700 text-white">
-          <Link href="/get-started" className="font-extrabold">Start Listening Now</Link>
+          <Link href="/" className="font-extrabold">Start Listening Now</Link>
         </Button>
         
       </div>

@@ -92,7 +92,7 @@ export default function Navbar() {
                             asChild 
                             className="w-full bg-white text-purple-600 hover:bg-purple-100 transition-colors duration-200 lg:bg-purple-600 lg:text-white lg:hover:bg-purple-700"
                         >
-                            <Link href="/get-started" className="font-bold text-lg" onClick={() => setIsMenuOpen(false)}>
+                            <Link href="/" className="font-bold text-lg" onClick={() => setIsMenuOpen(false)}>
                                 Get Started
                             </Link>
                         </Button>
