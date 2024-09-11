@@ -3,7 +3,8 @@
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { HeroSection } from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import { CTASection } from "@/components/ui/CTA";
+import { CTASection } from "@/components/CTA";
+import { AboutSection } from "@/components/About";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Navbar />
         <HeroSection />
         <FeaturesSection />
+        <AboutSection/>
         <CTASection />
       </main>
       <footer className="text-center py-8 text-sm opacity-70">
