@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export function CTASection() {
   return (
-    <section className="py-20 text-center h-[100vh]">
+    <section className="py-20 text-center h-[100vh] max-h-[800px]">
       <div className="bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 p-px rounded-lg h-full">
         <div className="rounded-lg h-full grid place-content-center" style={{ backgroundImage: 'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/images/cta.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
           <div className="px-10">

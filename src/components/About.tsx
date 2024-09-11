@@ -22,21 +22,21 @@ export function AboutSection() {
             </p>
           </div>
           <div className="flex justify-center space-x-6 mb-8">
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
+            <a href="https://www.linkedin.com/in/chiefebube" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
               <Linkedin className="h-8 w-8" />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
+            <a href="https://github.com/chiefEbube" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
               <Github className="h-8 w-8" />
               <span className="sr-only">GitHub</span>
             </a>
-            <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
+            <a href="https://x.com/chiefEbube_" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
               <Twitter className="h-8 w-8" />
               <span className="sr-only">Twitter</span>
             </a>
           </div>
           <Button asChild className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white">
-            <a href="https://github.com/yourusername/musicplayer" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/chiefEbube/melodiya" target="_blank" rel="noopener noreferrer">
               View Project on GitHub
             </a>
           </Button>

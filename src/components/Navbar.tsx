@@ -74,14 +74,14 @@ export default function Navbar() {
                     <div className="space-y-6 lg:space-y-0 lg:flex lg:items-center">
                         <Link 
                             href="/" 
-                            className="block font-semibold hover:text-purple-200 transition-colors duration-200 lg:text-gray-800 lg:hover:text-purple-600"
+                            className="block font-semibold hover:text-purple-200 transition-colors duration-200 lg:text-gray-100 lg:hover:text-purple-600 lg:mr-8"
                             onClick={() => setIsMenuOpen(false)}
                         >
                             Features
                         </Link>
                         <Link 
                             href="/" 
-                            className="block font-semibold hover:text-purple-200 transition-colors duration-200 lg:text-gray-800 lg:hover:text-purple-600"
+                            className="block font-semibold hover:text-purple-200 transition-colors duration-200 lg:text-gray-100 lg:hover:text-purple-600"
                             onClick={() => setIsMenuOpen(false)}
                         >
                             About
