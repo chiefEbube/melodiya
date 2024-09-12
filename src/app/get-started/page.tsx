@@ -28,14 +28,16 @@ export default function GetStarted() {
 
             {/* Right Column */}
             <div className="w-full md:w-1/2 bg-gradient-to-br from-violet-950 via-slate-950 to-gray-950 p-8">
-                <div className="md:hidden bg-black w-9 h-9 flex items-center justify-center rounded-full">
-                    <Image
-                        src="/images/logo.png"
-                        alt="Melodya Logo"
-                        width={25}
-                        height={25}
-                    />
-                </div>
+                <Link href="/" className="md:hidden">
+                    <div className="bg-black w-9 h-9 flex items-center justify-center rounded-full">
+                        <Image
+                            src="/images/logo.png"
+                            alt="Melodya Logo"
+                            width={25}
+                            height={25}
+                        />
+                    </div>
+                </Link>
                 <div className="w-full mx-auto h-[90%] md:h-full flex flex-col justify-evenly items-center">
                     <h2 className="text-3xl md:text-5xl text-center font-bold text-gray-50">
                         Join millions all over the world using <span className="text-purple-300">Melodya</span>
