@@ -93,7 +93,7 @@
         }
 
         return (
-            <div className="min-h-screen w-full bg-gradient-to-br from-gray-950 via-slate-950 to-violet-950 text-white p-8">
+            <div className="min-h-screen w-full bg-gradient-to-br from-gray-950 via-slate-950 to-violet-950 text-white py-8 px-4">
                 <div className="w-full max-w-3xl mx-auto p-4">
                     <h1 className="text-3xl md:text-7xl font-bold mb-6 animate-pulse clip bg-gradient-to-r from-pink-500 to-cyan-500">
                         <span>Welcome to Melodya</span>
@@ -118,11 +118,11 @@
                             <div className="grid gap-4 md:grid-cols-2">
                                 {tracks.map((track) => (
                                     <Card key={track.id} className="overflow-hidden bg-gradient-to-br from-gray-800 via-slate-800 to-violet-800 text-white border-gray-700">
-                                        <CardContent className="p-4">
+                                        <CardContent className="px-4 py-2">
                                             <div className="flex justify-between items-start mb-2">
                                                 <div>
-                                                    <h2 className="font-semibold truncate text-white">{track.name.slice(0, 20)}</h2>
-                                                    <p className="text-sm text-gray-300 truncate">{track.artist_name}</p>
+                                                    <h2 className="font-semibold truncate text-white text-sm">{track.name.slice(0, 20)}</h2>
+                                                    <p className="text-xs text-gray-300 truncate">{track.artist_name}</p>
                                                 </div>
                                                 <div className="flex items-center space-x-2">
                                                     <Button
