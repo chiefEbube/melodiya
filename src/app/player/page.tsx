@@ -95,7 +95,7 @@ export default function JamendoPlayer() {
     }
 
     return (
-        <div className="min-h-screen w-full bg-gradient-to-br from-gray-950 via-slate-950 to-violet-950 text-white py-8 px-6">
+        <div className="min-h-screen w-full bg-gradient-to-br from-gray-950 via-slate-950 to-violet-950 text-white py-10 px-6">
             <Link href="/" className="flex items-center space-x-2 z-20">
             <div className="bg-black w-9 h-9 flex items-center justify-center rounded-full">
                         <Image
@@ -107,7 +107,7 @@ export default function JamendoPlayer() {
                     </div>
                 <span className="hidden md:flex text-xl font-bold">Melodya</span>
             </Link>
-            <div className="w-full max-w-3xl mx-auto mt-6">
+            <div className="w-full max-w-3xl mx-auto mt-10">
                 <h1 className="text-3xl md:text-5xl text-center font-bold mb-5 animate-pulse clip bg-gradient-to-r from-pink-500 to-cyan-500">
                     <span>Welcome to Melodya</span>
                 </h1>
