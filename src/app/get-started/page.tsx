@@ -45,23 +45,13 @@ export default function GetStarted() {
                         Join millions all over the world using <span className="text-purple-300">Melodya</span>
                     </h2>
 
-                    <div className="-mt-16">
+                    <div className="">
                         <div className="space-y-4">
-
-
-                            {/* <form
-                                action={async () => {
-                                    "use server"
-                                    await signIn("google")
-                                }}
-                            > */}
                             <Link href="/player">
                                 <Button variant="outline" className="w-full flex items-center justify-center bg-white text-gray-800 hover:bg-gray-50 border border-gray-300 py-5">
                                     Start Listening Now
                                 </Button>
                             </Link>
-                            {/* </form> */}
-
                         </div>
                         <p className="text-xs text-gray-200 mt-8 text-center">
                             By continuing, you agree to our{" "}
