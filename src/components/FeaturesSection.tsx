@@ -32,7 +32,7 @@ export function FeaturesSection() {
   ]
 
   return (
-    <section className="py-20">
+    <section className="py-20" id="features">
       <h2 className="text-3xl font-bold mb-12 text-center text-gray-200">Why Choose Melodya?</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {features.map((feature, index) => (

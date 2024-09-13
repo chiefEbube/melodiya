@@ -72,14 +72,14 @@ export default function Navbar() {
                     </div>
                     <div className="space-y-6 lg:space-y-0 lg:flex lg:items-center">
                         <Link 
-                            href="/" 
+                            href="#features" 
                             className="block font-semibold hover:text-purple-200 transition-colors duration-200 lg:text-gray-100 lg:hover:text-purple-600 lg:mr-8"
                             onClick={() => setIsMenuOpen(false)}
                         >
                             Features
                         </Link>
                         <Link 
-                            href="/" 
+                            href="#about" 
                             className="block font-semibold hover:text-purple-200 transition-colors duration-200 lg:text-gray-100 lg:hover:text-purple-600"
                             onClick={() => setIsMenuOpen(false)}
                         >
