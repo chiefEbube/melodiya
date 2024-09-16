@@ -21,7 +21,7 @@ interface Track {
     audio: string
 }
 
-const CLIENT_ID = process.env.JAMENDO_CLIENT_ID
+const CLIENT_ID = process.env.NEXT_PUBLIC_JAMENDO_CLIENT_ID
 const TRACKS_PER_PAGE = 10
 
 export default function JamendoPlayer() {
