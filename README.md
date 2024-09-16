@@ -7,6 +7,10 @@ Melodya is a modern music application that offers a seamless music listening exp
 - **Deployed Site**: [Melodya Live](https://melodiya.vercel.app)
 - **Author(s) LinkedIn**: [Ebubechi Anyanwu](https://www.linkedin.com/in/chiefebube)
 
+## Screenshot
+
+![Melodya App Screenshot](public/Screenshot.png)
+
 ## Installation
 
 To set up Melodya locally, follow these steps:
@@ -31,10 +35,10 @@ To set up Melodya locally, follow these steps:
 
 4. **Set up environment variables:**
 
-   Create a `.env.local` file in the root directory and add your Jamenco API key:
+   Create a `.env.local` file in the root directory and add your Jamenco Client ID:
 
    ```env
-   JAMENCO_API_KEY=your_api_key_here
+   JAMENCO_CLIENT_ID=your_api_key_here
    ```
 
 5. **Run the development server:**
