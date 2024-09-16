@@ -9,7 +9,7 @@ Melodya is a modern music application that offers a seamless music listening exp
 
 ## Screenshot
 
-![Melodya App Screenshot](public/Screenshot.png)
+![Melodya App Screenshot](public/images/Screenshot.png)
 
 ## Installation
 
